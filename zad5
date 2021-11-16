@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int n = 0;
+	int a = 1;
+	int b = 0;
+	int k = 0;
+	int i = 0;
+	int z = 0;
+
+	printf("podaj ilosc studentow:");
+	scanf("%d", &n);
+	system("cls");
+	printf("grupa labolatoryjna liczy %d studentow \n", n);
+	while (i < n) {
+		i++;
+		printf("podaj ilosc punktow %d studenta \n", a);
+		a++;
+		scanf("%d", &b);
+		k = k + b;
+
+	}
+	z = k / n;
+	system("cls");
+	printf("srednia danej grupy labolatoryjnej wynosi &d punkty/ow", z);
+
+
+	return 0;
+}
